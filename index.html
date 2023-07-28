@@ -1,15 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Memory Card Game in JavaScript | CodingNepal</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
     
+    <div class="welcome">
+    </div>
+    <div class="player1">Player 1</div>
+    <div class="player2">Player 2</div>
+    <div class="playerScore"></div>
 
+
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/1.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/1.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/2.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/2.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/3.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/3.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/4.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/4.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/5.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/5.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/4.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/5.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/4.jpg" alt="card-img">
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="pictures/horror_movie.jpg" alt="?">
+          </div>
+          <div class="view back-view">
+            <img src="pictures/5.jpg" alt="card-img">
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="buttons">
+      <button id="start">Start</button>
+      <!-- <button id="reset">New Game</button>
+      <button id="end-game">End Game</button>  -->
+    </div>
     <script src="memory-card-game.js"></script>
-</body>
-
+  </body>
 </html>

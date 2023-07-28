@@ -1,0 +1,63 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: darkred;
+}
+.player1, .player2{
+  display: flex;
+  font-size: large;
+  position: top;
+
+}
+.wrapper{
+  padding: 25px;
+  border-radius: 10px;
+  background: #F8F8F8;
+  
+}
+.cards, .card, .view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards{
+  height: 400px;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .card{
+  cursor: pointer;
+  position: relative;
+  height: calc(100% / 4 - 10px);
+  width: calc(100% / 4 - 10px);
+}
+
+.card .view{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 7px;
+  background: #fff;
+  pointer-events: none;
+  backface-visibility: hidden;
+  border: black solid 5px;
+}
+.card .front-view img{
+  width: 75px;
+}
+.card .back-view img{
+  max-width: 45px;
+}
+.card .back-view{
+  transform: rotateY(-180deg);
+}
+.card.flip .back-view{
+  transform: rotateY(0);
+}
+.card.flip .front-view{
+  transform: rotateY(180deg);
+}
