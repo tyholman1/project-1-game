@@ -5,12 +5,7 @@ body{
   min-height: 100vh;
   background: darkred;
 }
-.player1, .player2{
-  display: flex;
-  font-size: large;
-  position: top;
 
-}
 .wrapper{
   padding: 25px;
   border-radius: 10px;
